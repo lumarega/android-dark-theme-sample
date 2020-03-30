@@ -32,4 +32,9 @@
         <item name="android:tint">@color/primaryBrandColor</item>
     </style>
 
+    <style name="BlueTheme.Button">
+        <item name="android:backgroundTint">@color/secondaryDarkBrandColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
 </resources>

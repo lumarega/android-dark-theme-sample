@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/sampleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/sampleText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/mediumMargin"
+        android:textAppearance="@style/BlueTheme.primaryTextColor.Large"/>
+
+    <TextView
+        android:id="@+id/sampleText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/sample_text"
+        android:layout_margin="@dimen/mediumMargin"
+        app:layout_constraintTop_toBottomOf="@id/sampleTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAppearance="@style/BlueTheme.secondaryTextColor.Medium"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

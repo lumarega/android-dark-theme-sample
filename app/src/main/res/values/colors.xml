@@ -2,6 +2,7 @@
 <resources>
     <!-- Colors for the light theme-->
     <color name="primaryBrandColor">#1976D2</color>
+    <color name="secondaryDarkBrandColor">#a69003</color>
     <color name="secondaryBrandColor">#00BCD4</color>
     <color name="alertRed">#ff0000</color>
     <color name="activityBackground">#f7f5b2</color>
