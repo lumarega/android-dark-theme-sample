@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors for the dark theme-->
+    <color name="primaryBrandColor">#00af00</color>
+    <color name="secondaryBrandColor">#00BCD4</color>
+    <color name="activityBackground">#362345</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ececec</color>
+    <color name="tertiaryTextColor">#95ffffff</color>
+</resources>

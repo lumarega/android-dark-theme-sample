@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Styles for the light theme -->
+
+    <!-- Extends TextAppearance(for backwards compatibility) and changes the color -->
+    <style name="BlueTheme.primaryTextColor" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <!-- Extends BlueTheme.primaryColor and changes the font size  -->
+    <style name="BlueTheme.primaryTextColor.Medium">
+        <item name="android:textSize">@dimen/mediumFontSize</item>
+    </style>
+
+    <style name="BlueTheme.primaryTextColor.Large">
+        <item name="android:textSize">@dimen/largeFontSize</item>
+    </style>
+
+    <style name="BlueTheme.secondaryTextColor" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="BlueTheme.secondaryTextColor.Medium">
+        <item name="android:textSize">@dimen/mediumFontSize</item>
+    </style>
+
+    <style name="BlueTheme.secondaryTextColor.Small">
+        <item name="android:textSize">@dimen/smallFontSize</item>
+    </style>
+
+    <style name="BlueTheme.drawable">
+        <item name="android:tint">@color/primaryBrandColor</item>
+    </style>
+
+</resources>

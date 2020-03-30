@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- This is how we use the system styles for textAppearanceLarge/Medium/Small
+     that we have overridden in the themes.xml -->
+
+    <TextView
+        android:id="@+id/smallText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/small_text_appearance_sample"
+        android:layout_margin="15dp"
+        />
+
+    <TextView
+        android:id="@+id/mediumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintTop_toBottomOf="@id/smallText"
+        android:text="@string/medium_text_appearance_sample"
+        android:layout_margin="15dp"
+        />
+
+    <TextView
+        android:id="@+id/largeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/BlueTheme.primaryTextColor.Large"
+        app:layout_constraintTop_toBottomOf="@id/mediumText"
+        app:layout_constraintBottom_toTopOf="@id/list"
+        android:text="@string/large_text_appearance_sample"
+        android:layout_margin="15dp"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/largeText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
