@@ -23,6 +23,8 @@
         <item name="colorPrimaryDark">@color/primaryDarkBrand2Color</item>
         <item name="colorAccent">@color/secondaryBrand2Color</item>
 
+        <item name="fontFamily">@font/oswald</item>
+
         <!-- overrides the default activity background color -->
         <item name="android:windowBackground">@color/activityBrand2Background</item>
     </style>

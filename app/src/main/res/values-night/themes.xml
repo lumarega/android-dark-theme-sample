@@ -8,6 +8,7 @@
     </style>
 
     <style name="OrangeTheme" parent="BaseTheme">
+        <item name="fontFamily">@font/oswald</item>
         <item name="colorPrimary">@color/primaryBrand2Color</item>
         <item name="colorPrimaryDark">@color/primaryDarkBrand2Color</item>
         <item name="colorAccent">@color/secondaryBrand2Color</item>
