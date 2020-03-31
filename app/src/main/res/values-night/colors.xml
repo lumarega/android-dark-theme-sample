@@ -4,7 +4,7 @@
     <color name="activityBackground">#333333</color>
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#ececec</color>
-    <color name="tertiaryTextColor">#95ffffff</color>
+    <color name="tertiaryTextColor">#000000</color>
     <color name="alertRed">#ff0000</color>
 
     <!-- Colors for the light theme-->

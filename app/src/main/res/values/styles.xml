@@ -33,8 +33,9 @@
     </style>
 
     <style name="button">
-        <item name="android:backgroundTint">?attr/colorPrimaryDark</item>
-        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:background">@drawable/button_radius_25</item>
+        <item name="android:padding">@dimen/smallMargin</item>
     </style>
 
 </resources>
