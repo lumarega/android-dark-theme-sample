@@ -9,4 +9,14 @@
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#777777</color>
     <color name="tertiaryTextColor">#aaaaaa</color>
+
+    <!-- Colors for the orange theme-->
+    <color name="primaryBrand2Color">#FF9800</color>
+    <color name="secondaryDarkBrand2Color">#F57C00</color>
+    <color name="secondaryBrand2Color">#FFEB3B</color>
+    <color name="activityBrand2Background">#FFE0B2</color>
+    <color name="primaryBrand2TextColor">#212121</color>
+    <color name="secondaryBrand2TextColor">#757575</color>
+    <color name="tertiaryBrand2TextColor">#BDBDBD</color>
+
 </resources>

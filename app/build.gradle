@@ -23,6 +23,20 @@ android {
         }
     }
 
+    flavorDimensions "theme-sample"
+    productFlavors {
+        orange {
+            dimension "theme-sample"
+            applicationIdSuffix ".orange"
+            manifestPlaceholders = [ appTheme:"@style/OrangeTheme"]
+        }
+        blue {
+            dimension "theme-sample"
+            applicationIdSuffix ".blue"
+            manifestPlaceholders = [ appTheme:"@style/BlueTheme"]
+        }
+    }
+
 }
 
 dependencies {
