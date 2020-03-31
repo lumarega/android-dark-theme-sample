@@ -3,38 +3,38 @@
     <!-- Styles for the light theme -->
 
     <!-- Extends TextAppearance(for backwards compatibility) and changes the color -->
-    <style name="BlueTheme.primaryTextColor" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">@color/primaryTextColor</item>
+    <style name="primaryTextColor" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
     <!-- Extends BlueTheme.primaryColor and changes the font size  -->
-    <style name="BlueTheme.primaryTextColor.Medium">
+    <style name="primaryTextColor.Medium">
         <item name="android:textSize">@dimen/mediumFontSize</item>
     </style>
 
-    <style name="BlueTheme.primaryTextColor.Large">
+    <style name="primaryTextColor.Large">
         <item name="android:textSize">@dimen/largeFontSize</item>
     </style>
 
-    <style name="BlueTheme.secondaryTextColor" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">@color/secondaryTextColor</item>
+    <style name="secondaryTextColor" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
-    <style name="BlueTheme.secondaryTextColor.Medium">
+    <style name="secondaryTextColor.Medium">
         <item name="android:textSize">@dimen/mediumFontSize</item>
     </style>
 
-    <style name="BlueTheme.secondaryTextColor.Small">
+    <style name="secondaryTextColor.Small">
         <item name="android:textSize">@dimen/smallFontSize</item>
     </style>
 
-    <style name="BlueTheme.drawable">
-        <item name="android:tint">@color/primaryBrandColor</item>
+    <style name="drawable">
+        <item name="android:tint">?attr/colorPrimary</item>
     </style>
 
-    <style name="BlueTheme.Button">
-        <item name="android:backgroundTint">@color/secondaryDarkBrandColor</item>
-        <item name="android:textColor">@color/primaryTextColor</item>
+    <style name="button">
+        <item name="android:backgroundTint">?attr/colorPrimaryDark</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
     </style>
 
 </resources>

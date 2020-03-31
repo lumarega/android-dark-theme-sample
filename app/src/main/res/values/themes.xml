@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat.Light" />
 
-    <style name="BlueTheme" parent="Theme.AppCompat.DayNight">
+    <style name="BaseTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Overrides the text colors -->
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:textColorTertiary">@color/tertiaryTextColor</item>
 
+        <!-- This is one way of setting the textAppearance by overriding the theme's
+        attributes and then using on the views we want -->
+        <!-- Another way is to set the style we want in the view's textAppearance attribute  -->
+        <item name="android:textAppearanceSmall">@style/secondaryTextColor.Small</item>
+        <item name="android:textAppearanceMedium">@style/primaryTextColor.Medium</item>
+        <item name="android:textAppearanceLarge">@style/primaryTextColor.Large</item>
+    </style>
+
+    <style name="OrangeTheme" parent="BaseTheme">
+        <!-- Overrides the values for color primary and color accent -->
+        <item name="colorPrimary">@color/primaryBrand2Color</item>
+        <item name="colorPrimaryDark">@color/primaryDarkBrand2Color</item>
+        <item name="colorAccent">@color/secondaryBrand2Color</item>
+
+        <!-- overrides the default activity background color -->
+        <item name="android:windowBackground">@color/activityBrand2Background</item>
+    </style>
+
+    <style name="BlueTheme" parent="BaseTheme">
         <!-- Overrides the values for color primary and color accent -->
         <item name="colorPrimary">@color/primaryBrandColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkBrandColor</item>
         <item name="colorAccent">@color/secondaryBrandColor</item>
 
         <!-- overrides the default activity background color -->
         <item name="android:windowBackground">@color/activityBackground</item>
 
-        <!-- This is one way of setting the textAppearance by overriding the theme's
-        attributes and then using on the views we want -->
-        <!-- Another way is to set the style we want in the view's textAppearance attribute  -->
-        <item name="android:textAppearanceSmall">@style/BlueTheme.secondaryTextColor.Small</item>
-        <item name="android:textAppearanceMedium">@style/BlueTheme.primaryTextColor.Medium </item>
-        <item name="android:textAppearanceLarge">@style/BlueTheme.primaryTextColor.Large</item>
     </style>
+
 </resources>
 
 <!-- 30-03-2020 Official doc on Android Dark Theme https://developer.android.com/guide/topics/ui/look-and-feel/darktheme -->

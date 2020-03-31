@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- These are the values that will be picked up when we change to dark theme -->
-
-    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat" />
-
-    <style name="BlueTheme" parent="Theme.AppCompat.DayNight">
+    <style name="BlueTheme" parent="BaseTheme">
         <item name="colorPrimary">@color/primaryBrandColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkBrandColor</item>
         <item name="colorAccent">@color/secondaryBrandColor</item>
-        <item name="android:windowBackground">@color/activityBackground</item>
-        <item name="android:textAppearanceMedium">@style/BlueTheme.secondaryTextColor.Medium </item>
-        <item name="android:textAppearanceLarge">@style/BlueTheme.primaryTextColor.Large</item>
-        <item name="android:textAppearanceSmall">@style/BlueTheme.secondaryTextColor.Small</item>
+    </style>
+
+    <style name="OrangeTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/primaryBrand2Color</item>
+        <item name="colorPrimaryDark">@color/primaryDarkBrand2Color</item>
+        <item name="colorAccent">@color/secondaryBrand2Color</item>
     </style>
 </resources>

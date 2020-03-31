@@ -33,7 +33,7 @@
         android:id="@+id/largeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/BlueTheme.primaryTextColor.Large"
+        android:textAppearance="@style/primaryTextColor.Large"
         app:layout_constraintTop_toBottomOf="@id/mediumText"
         app:layout_constraintBottom_toTopOf="@id/list"
         android:text="@string/large_text_appearance_sample"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="@dimen/smallMargin"
         android:layout_marginBottom="@dimen/smallMargin"
-        style="@style/BlueTheme.Button"
+        style="@style/button"
         android:text="@string/open_a_new_activity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
